@@ -22,15 +22,18 @@
 
 // measureTime();
 
-const ProgressBar = require("progress");
+// const ProgressBar = require("progress");
 
-const bar = new ProgressBar("downloading [:bar] :rate/bps :percent :etas", {
-    total: 20,
-})
+// const bar = new ProgressBar("downloading [:bar] :rate/bps :percent :etas", {
+//     total: 20,
+// })
 
-const timer = setInterval(() => {
-    bar.tick();
-    if(bar.complete) {
-        clearInterval(timer);
-    }
-}, 200)
+// const timer = setInterval(() => {
+//     bar.tick();
+//     if(bar.complete) {
+//         clearInterval(timer);
+//     }
+// }, 200)
+
+const chalk = require("chalk");
+console.log(chalk.yellow("This is nodejs tutorial"));
