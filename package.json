@@ -13,6 +13,8 @@
     "nodemon": "^3.1.1"
   },
   "dependencies": {
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "minimist": "^1.2.8",
+    "progress": "^2.0.3"
   }
 }
